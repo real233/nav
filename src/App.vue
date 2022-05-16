@@ -47,7 +47,7 @@ export default {
         },
     },
     created: function() {
-        // Update your config
+        // 修改配置文件路径
          this.$store.commit('config/url', 'https://gist.githubusercontent.com/real233/c00d9431cd79c160692016849e96f805/raw/nav-config.json');
          this.$store.dispatch('config/update');
     }

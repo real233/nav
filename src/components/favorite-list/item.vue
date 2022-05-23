@@ -1,5 +1,5 @@
 <template>
-    <a :href="website.url" :class="{ website: true, 'card-1': isActive }"
+    <a :href="website.url" target="_blank" :class="{ website: true, 'card-1': isActive }"
     @mouseover="active" @mouseout="cancel" @touchstart="active" @touchend="cancel" @touchcancel="cancel">
         <div class="img">
             <img class="icon" :src="iconUrl" v-if="website.icon">
